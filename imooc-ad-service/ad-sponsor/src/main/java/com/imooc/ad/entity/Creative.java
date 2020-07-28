@@ -1,6 +1,5 @@
 package com.imooc.ad.entity;
 
-import com.sun.tools.javac.jvm.Gen;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
