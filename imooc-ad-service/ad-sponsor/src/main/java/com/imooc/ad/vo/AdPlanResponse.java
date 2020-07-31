@@ -15,5 +15,5 @@ import lombok.NoArgsConstructor;
 public class AdPlanResponse {
 
     private Long id;
-    private Long planName;
+    private String planName;
 }
