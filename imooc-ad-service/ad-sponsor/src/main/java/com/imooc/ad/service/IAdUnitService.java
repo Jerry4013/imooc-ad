@@ -9,6 +9,8 @@ import com.imooc.ad.vo.AdUnitKeywordRequest;
 import com.imooc.ad.vo.AdUnitKeywordResponse;
 import com.imooc.ad.vo.AdUnitRequest;
 import com.imooc.ad.vo.AdUnitResponse;
+import com.imooc.ad.vo.CreativeUnitRequest;
+import com.imooc.ad.vo.CreativeUnitResponse;
 
 /**
  * Created by Jingchao Zhang
@@ -24,4 +26,6 @@ public interface IAdUnitService {
     AdUnitItResponse createUnitIt(AdUnitItRequest request) throws AdException;
 
     AdUnitDistrictResponse createUnitDistrict(AdUnitDistrictRequest request) throws AdException;
+
+    CreativeUnitResponse createCreativeUnit(CreativeUnitRequest request) throws AdException;
 }
